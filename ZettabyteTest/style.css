@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(31, 25, 85);
+}
+
+.welcome-section > p {
+    width: 50%;
+    font-size: 30px;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.welcome-section > h1 {
+    color: white;
+}
+
+.option-section {
+    text-align: center;
+    padding: 10rem 2rem;
+    background: lightgray;
+}
+
+.option-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+.option-header {
+    background-color: gray;
+}
+
+.option-box {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.option-box > h2 {
+    text-align: left;
+}
+
+.option-box:hover {
+    zoom: 110%;
+}
+
+.price-section {
+    font-size: 5rem;
+    margin-bottom: 30px;
+}
+
+.underline {
+    border: 1px solid gray;
+}
+
+.details {
+    text-align: left;
+    margin: 15px;
+}
+
+.buy-btn {
+    width: 70%;
+    font-size: 1rem;
+    background: lightblue;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.buy-btn:hover {
+    background: red;
+}
+
+
+.faq-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0.2rem;
+    background: white;
+}
+
+.faq-section-header > h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.question-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 40px auto;
+    margin-bottom: 6rem;
+}
+
+.question-box {
+    width: 70%;
+}
