@@ -35,17 +35,17 @@ const students = [
     let answer = [];
 
     for (let i = 0; i < students.length; i++) {
-        
         sum = sum + students[i].score;
-
         mean = sum / students.length;
-
-        if (students[i].score > mean) {
-            answer.push(students[i]);
-        }
-        return answer;
     }
-    
+
+    for (let i = 0; i < students.length; i++) {
+      if (students[i].score > mean) {
+        answer.push(students[i]);
+      }
+      
+    }
+    return answer;
   }
   
   console.log(result());
